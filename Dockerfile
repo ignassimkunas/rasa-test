@@ -15,5 +15,3 @@ COPY ./actions /app/actions
 
 # Switch back to non-root to run code
 USER 1001
-
-RUN rasa run actions
