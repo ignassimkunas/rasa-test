@@ -16,7 +16,7 @@ jobs:
     - id: action_server
       name: Build an action server with a custom actions
       uses: ignassimkunas/rasa-test@master
-      # Full list of parameters: https://github.com/RasaHQ/action-server-gha/tree/master#input-arguments
+      # Full list of parameters: https://github.com/RasaHQ/action-server-gha/tree/master#input-arguments 
       with:
         docker_image_name: 'ignassimkunas/flask-test'
         docker_registry_login: ${{ secrets.DOCKER_HUB_LOGIN }}
@@ -24,6 +24,6 @@ jobs:
         # More details about github context:
         # https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#github-context
         #
-        
+
         # github.sha - The commit SHA that triggered the workflow run
         docker_image_tag: ${{ github.sha }}
