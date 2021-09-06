@@ -7,7 +7,7 @@ on:
 
 jobs:
   build_and_deploy:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     name: Build Action Server image and upgrade Rasa X deployment
     steps:
     - name: Checkout repository
