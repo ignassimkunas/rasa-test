@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - master
     paths:
     - 'actions/**'
 
@@ -15,7 +15,7 @@ jobs:
 
     - id: action_server
       name: Build an action server with a custom actions
-      uses: RasaHQ/action-server-gha@master
+      uses: ignassimkunas/rasa-test@master
       # Full list of parameters: https://github.com/RasaHQ/action-server-gha/tree/master#input-arguments
       with:
         docker_image_name: 'ignassimkunas/rasa'
