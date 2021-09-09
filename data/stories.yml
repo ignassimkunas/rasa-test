@@ -7,7 +7,7 @@ stories:
   - intent: mood_great
   - action: action_hello_world
   - intent: bot_challenge
-  - action: action_hello_world
+  - action: utter_iamabot
 - story: sad path 1
   steps:
   - intent: greet
