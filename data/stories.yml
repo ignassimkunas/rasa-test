@@ -4,6 +4,8 @@ stories:
   steps:
   - intent: greet
   - action: action_hello_world
+  - intent: mood_great
+  - action: utter_greet
   - intent: bot_challenge
   - action: utter_iamabot
 - story: sad path 1
