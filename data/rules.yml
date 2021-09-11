@@ -1,12 +1,13 @@
 version: "2.0"
-
 rules:
-
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf21504ba8910c27625e23779fff33a0827f25d6
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge

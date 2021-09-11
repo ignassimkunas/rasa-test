@@ -8,7 +8,12 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
+<<<<<<< HEAD
 
+=======
+  - intent: bot_challenge
+  - action: utter_iamabot
+>>>>>>> bf21504ba8910c27625e23779fff33a0827f25d6
 - story: sad path 1
   steps:
   - intent: greet
