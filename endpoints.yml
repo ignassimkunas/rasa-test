@@ -4,7 +4,7 @@
 # https://rasa.com/docs/rasa/model-storage#fetching-models-from-a-server
 
 models:
- url: http://my-server.com/models/default_core@latest
+ url: http://157.90.159.32/models/default_core@latest
  wait_time_between_pulls:  10   # [optional](default: 100)
 
 # Server which runs your custom actions.
