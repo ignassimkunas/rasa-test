@@ -8,8 +8,6 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-  - intent: bot_challenge
-  - action: utter_iamabot
 
 - story: sad path 1
   steps:
